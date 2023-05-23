@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #FFFFFF;
+    --rose-400: #F2CEF2;
+    --rose-800: #DF99F2;
+    --violet-400: #9E91B7;
+    --violet-800: #3D2DA6;
+    --dark-blue-400: #07338C;
+    --dark-blue-800: #021740;
+}
+
+@font-face {
+    font-family: "Wakanda forever";
+    src: url(../assets/fonts/WakandaForever-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../assets/fonts/BEYNO.otf);
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../assets/fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../assets/fonts/Cantarell-Regular.ttf);
+}
+
+body {
+    height: 100%;
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Panthera", sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "BEYNO", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2.engine {
+    font-family: "Wakanda forever", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+}
+
+p, h5, h6 {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+}
+
+span.voir-plus {
+    font-size: 1vw;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 10px;    
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+main {
+    background-image:  url(../assets/all_pages/arrière_plan.png);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 6vw;
+}
+
+header img {
+    height: 1.75vw;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+header nav h2 {
+    font-size: 1.25vw;
+}
+
+header nav a.selected, header nav a:hover {
+    color: var(--violet-400);
+    opacity: 75%;
+    text-decoration: underline;
+}
