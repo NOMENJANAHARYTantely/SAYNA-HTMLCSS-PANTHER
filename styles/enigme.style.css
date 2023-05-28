@@ -1,0 +1,162 @@
+@import url(global.style.css);
+
+main section#description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section#description div#panthereni img#panthereni {
+    max-inline-size: 100%;
+    block-size: auto;
+    width: 95%;
+    height: 66%;
+}
+
+main section#description div#panthereni img#ligne {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55rem;
+}
+
+main section#description div#panthereni {
+    width: 55%;
+}
+
+main section#description div#profile h2 {
+    font-size: 3vw;
+    color: var(--violet-400);
+}
+
+main section#description div#profile div#text {
+    background-image: url(../assets/enigme/Pantherenigme2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 8rem;   
+}
+
+main section#description div#profile {
+    margin-top: 15rem;
+}
+
+main section#description div#profile div#text p {
+    font-size: 0.75vw;
+    width: 35vw;
+    line-clamp: 3;
+    padding: 3vw;
+}
+
+main section#enigme h2.engine {
+    padding: 2rem;
+    padding-right: 25rem;
+    font-size: 40px;
+    color: var(--rose-800);
+    margin-left: 4rem;
+}
+
+main section#enigme div#alpha-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main section#enigme p#title{
+    margin-left: 6rem;
+}
+
+main section#enigme div#alpha-text {
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+span.alpha {
+    font-family: "Wakanda forever", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main section#enigme div#alpha-text p#alphabet {
+    line-clamp: 3;
+    padding-right: 25rem;
+}
+
+main section#enigme div#texte {
+    background-image: url(../assets/enigme/Pantherenigme2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10rem;
+    margin-right: 4rem;
+}
+
+main section#enigme div#texte p {
+    font-size: 12px;
+    
+}
+
+main section#enigme div#contact input#reponse {
+    border-radius: 1rem;
+    border: 0.1rem solid var(--rose-800);
+    color: var(--rose-800);
+    background-color: rgba(255, 255, 255, 0.037);
+    padding: 0.5rem;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 22rem;
+
+}
+
+main section#enigme div#contact form button {
+    padding: 0.5rem;
+    width: min-content;
+    background-color: var(--rose-400);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #00000072 0px 0px 12px 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+main section#enigme div#contact form button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 8px;
+}
+
+main section#enigme div#contact form button:hover {
+    box-shadow: var(--rose-400) 0px 0px 12px 1px;
+}
+
+main section#enigme div#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5rem;
+    margin-left: 6rem;
+}
+
+main section#enigme div#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right : 55rem;
+    justify-content: center;
+}
